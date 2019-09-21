@@ -6,16 +6,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class iniciarSesion extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_iniciar_sesion);
     }
-
-    public void inicio(View inicio){
-        Intent intent = new Intent(this, iniciarSesion.class);
+    public void regresar(View regresa){
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
 }

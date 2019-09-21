@@ -2,5 +2,7 @@
     <string name="app_name">GOU</string>
     <string name="Inicio">Iniciar Sesión</string>
     <string name="registro">Registrarme</string>
-    <string name="contentLogo">logo</string>
+    <string name="user">Usuario</string>
+    <string name="contra">Contraseña</string>
+    <string name="iniciarSesion">Iniciar Sesión</string>
 </resources>
