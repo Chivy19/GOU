@@ -18,4 +18,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, iniciarSesion.class);
         startActivity(intent);
     }
+
+    public void registro(View registro){
+        Intent intent = new Intent(this,formulario_registro.class);
+        startActivity(intent);
+    }
 }

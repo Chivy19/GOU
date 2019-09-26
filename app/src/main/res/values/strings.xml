@@ -5,4 +5,11 @@
     <string name="user">Usuario</string>
     <string name="contra">Contraseña</string>
     <string name="iniciarSesion">Iniciar Sesión</string>
+    <string name="TxtRegistro">INFORMACIÓN DE MI CUENTA</string>
+    <string name="continuar">Continuar</string>
+    //datos formulario
+    <string name="id">Número de documento o token</string>
+    <string name="nombre_usuario">Nombre de usuario</string>
+    <string name="correo">Email</string>
+    <string name="confirma">Confirmar contraseña</string>
 </resources>
