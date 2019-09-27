@@ -15,7 +15,6 @@ public class formulario_registrorequest extends StringRequest{
         parametros.put("id", Id+"");
         parametros.put("nombreuser", nombreuser+"");
         parametros.put("correo",email+"");
-
         parametros.put("contraseña",Contraseña+"");
     }
 
