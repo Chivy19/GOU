@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".datosPersonales">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        app:srcCompat="@drawable/img"
+        tools:layout_editor_absoluteX="364dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="81dp"
+        android:text="@string/personalData"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="66dp" />
+
+    <ImageButton
+        android:id="@+id/btn_retroceso"
+        android:layout_width="51dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/transparent"
+        android:onClick="retroceso"
+        app:srcCompat="@drawable/retroceso"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <ScrollView
+        android:layout_width="413dp"
+        android:layout_height="310dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="127dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/Nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/nombre"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/Apellido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/apellido"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/Fecha_nac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:hint="@string/fec_nacimiento" />
+
+            <ImageButton
+                android:id="@+id/btn_fecha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickNacimiento"
+                app:srcCompat="@drawable/calendario" />
+
+            <Spinner
+                android:id="@+id/selector"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:id="@+id/NumDocumento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/num_documento"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/NumTelefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/num_telefono"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/FechaVencimientoLC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/fec_ven_licencia" />
+
+            <ImageButton
+                android:id="@+id/btn_vencimientoLC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickLC"
+                app:srcCompat="@drawable/calendario" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/continuar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="31dp"
+        android:onClick="fotos"
+        android:text="@string/continuar" />
+
+
+</RelativeLayout>

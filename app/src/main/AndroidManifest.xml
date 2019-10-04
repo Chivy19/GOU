@@ -4,6 +4,12 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
 
+    <uses-feature
+        android:name="android.hardware.Camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:background="#D60A0A"
@@ -12,9 +18,11 @@
         android:roundIcon="@mipmap/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Main2Activity"></activity>
+        <activity android:name=".soat_tecno_vehiculo"></activity>
+        <activity android:name=".fotosDatosPersonales" />
+        <activity android:name=".DatosVehiculo" />
+        <activity android:name=".datosPersonales" />
         <activity android:name=".formulario_registro" />
-        <activity android:name=".iniciarSesion" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -5,14 +5,58 @@
     <string name="user">Usuario</string>
     <string name="contra">Contraseña</string>
     <string name="iniciarSesion">Iniciar Sesión</string>
-    <string name="TxtRegistro">INFORMACIÓN DE MI CUENTA</string>
     <string name="continuar">Continuar</string>
-    //datos formulario
+    //datos formulario 1
+    <string name="TxtRegistro">INFORMACIÓN DE MI CUENTA</string>
     <string name="id">Número de documento o token</string>
-    <string name="nombre_usuario">Nombre de usuario</string>
+    <string name="usuario">Nombre de usuario</string>
     <string name="correo">Email</string>
     <string name="confirma">Confirmar contraseña</string>
     <string name="hola">Bienvenido</string>
+    //datos formulario 2
+    <string name="personalData">DATOS PERSONALES</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="fec_nacimiento">Fecha de nacimiento</string>
+    <string name="doc_type">Tipo de documento</string>
+    <string name="num_documento">Numero de documento</string>
+    <string name="num_telefono">Numero de Teléfono</string>
+    <string name="fec_ven_licencia">Fecha de vencimiento L.C</string>
+    //datos formulario 3
+    <string name="foto_prfil">Foto de perfil</string>
+    <string name="licencia_conduccion">Licencia de conducción</string>
+    <string name="doc_identidad">Documento de identidad</string>
+    <string-array name="imagenes">
+        <item>Seleccionar</item>
+        <item>Foto de perfil</item>
+        <item>Licencia de conducción</item>
+        <item>Documento de identidad</item>
+    </string-array>
+    <!--Nuevo arreglo para Spinner de selección (camera / storage) -->
+    <string-array name="galeria_camera">
+        <item>Seleccionar</item>
+        <item>Cámara</item>
+        <item>Galería</item>
+    </string-array>
+    //datos formulario 3
+    <string name="dato_Vehiculo">DATOS DEL VEHICULO</string>
+    <string name="tipo">Tipo de vehiculo</string>
+    <string name="placaVehiculo">Placa del vehiculo</string>
+    <string name="modelo">Modelo</string>
+    <string name="marca">Marca</string>
+    <string name="color">Color</string>
+    <string name="cupos">Número total de Cupos</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    // -------------------- fotos datos personales-------------------
+    <string name="foto">Selecionar</string>
+
+    //datos formulario 4
+    <string name="soat">Fecha Vencimiento SOAT</string>
+    <string name="mecanica">Fecha vencimiento tecnomecánica</string>
+    <string name="fecha1">Fecha</string>
+    <string name="fecha2">Fecha</string>
+    
+    //datos formulario 5
+    <string name="otroCarro">Agregar otro vehiculo</string>
 </resources>
